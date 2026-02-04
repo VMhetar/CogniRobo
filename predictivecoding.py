@@ -59,4 +59,3 @@ class SituationDecoder(nn.Module):
         x = x.view(x.size(0), 128, 4, 4)
         frame = self.spatial_decode(x)
         return frame
-
