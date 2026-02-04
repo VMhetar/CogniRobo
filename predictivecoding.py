@@ -8,6 +8,10 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 
+"""
+Situation Encoder and Decoder for Predictive Coding.
+This module defines the SituationEncoder and SituationDecoder classes or encoding and decoding situational representations.
+"""
 class SituationEncoder(nn.Module):
     def __init__(self, hidden_dim=64):
         super().__init__()
